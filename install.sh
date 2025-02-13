@@ -808,7 +808,7 @@ function handleInstallationMode() {
 function downloadSourceFiles() {
     rm -rf ./espocrm-installer-master.zip ./espocrm-installer-master/
 
-    download https://github.com/espocrm/espocrm-installer/archive/refs/heads/master.zip "espocrm-installer-master.zip"
+    download https://github.com/rodekruis/espocrm-installer/archive/refs/heads/install-specific-version.zip "espocrm-installer-master.zip"
     unzip -q "espocrm-installer-master.zip"
 
     if [ ! -d "./espocrm-installer-master" ]; then
